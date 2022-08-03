@@ -1,0 +1,450 @@
+.base .navbar{
+    display: inherit;
+}
+.navbar .nav-topicos{
+    color: #813bea !important;
+    margin-right: 60px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+.foto{
+    margin-top: 50px;
+}
+.navbar .nav-topicos:hover{
+    color: #ffffff !important;
+    font-size: 25px;
+    transition: 1s;
+}
+.navbar .titulo{
+    color: #ffffff !important;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.button-lenguage{
+    float: right;
+    background-color: var(--colorPurple);
+    margin-right: 10px;
+    color: #fff;
+}
+.texto-alinhado{
+    text-align: center;
+    
+}
+.color-navbar{
+    background-color: black !important;
+}
+.base{
+    background-color: black;
+}
+.sobreMim .texto-sobremim{
+    color: white;
+    margin-bottom: 170px;
+}
+.sobreMim{
+    padding-top: 50px;
+}
+.navbar-toggler.botao{
+    border: none;
+    outline: none;
+    background-color: #5a00e1;
+}
+.navbar-toggler.botao:active{
+    border: none;
+}
+.digita{
+    box-shadow: .3em 0 0 #5a00e1;
+    margin: 2rem 1rem;
+    width: 37ch;
+    overflow: hidden;
+    color: #ffffff;
+    white-space: nowrap;
+    animation: caret .6s step-end infinite alternate, type 6s steps(23, end)
+}
+@keyframes type {
+    0% {
+        width: 0;
+    }
+}
+@keyframes caret {
+    50% {
+        box-shadow: .6em 0 0 transparent;
+    }
+}
+@use postcss-present-env {
+    stage: 0;
+    autoprefixer: {
+        grid: true;
+    }
+    browsers: [
+        "last 1 Chrome versions",
+        "last 1 Firefox versions",
+        "last 1 safari versions",
+        "last 1 Edge versions"
+    ]
+}
+.base_dois .color-titulo{
+    color: #ffffff;
+    text-shadow:var(--colorGrey) 5px 2px 3px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.base_dois{
+    background-color: var(--colorPurple);
+    padding-bottom: 100px;
+}
+.base_dois .line{
+    background-color: #5a00e1;
+    height: 4px;
+    width: 300px;
+    margin-bottom: 80px;
+    margin-top: 60px;
+}
+.base .paragrafo {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    width: 300;
+
+}
+.softskils .paragrafo{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+
+}
+.softskils{
+    margin-bottom: 50px;
+}
+.base_tres{
+  background-color: #fefeff;
+   padding-top: 50px ;
+   padding-bottom: 150px,
+}
+.sobreMim .botao{
+    color: #ffffff;
+    background-color: var(--colorPurple);
+    border-radius: 40px;
+    font-size: 15px;
+    padding: 5px 20px;
+    font-weight: 400;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.sobreMim .link-cv{
+    text-decoration: none;
+    color:  #ffffff ;
+}
+.softskils  .lines {
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    position: relative;
+    border-radius: 50px;
+}
+.softskils  .lines::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    width: 90%;
+    border-radius: 50px;
+}
+.softskils .git.lines::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    width: 70%;
+    border-radius: 50px;
+}
+.softskils .vue.lines::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    width: 60%;
+    border-radius: 50px;
+}
+.softskils .fiori.lines::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    width: 60%;
+    border-radius: 50px;
+}
+.softskils .animada.lines::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    width: 98%;
+    border-radius: 50px;
+}
+.softtext{
+    color: #040305;
+    margin-top: 30px;
+}
+.softskils .abap.lines::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    width: 60%;
+    border-radius: 50px;
+}
+.info-line{
+    margin-top: 20px;
+}
+.softskils .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    height: 20px;
+}
+.sobreMim .botao:hover .link-cv{
+    text-decoration: none;
+    color: var(--colorPurple);
+    transition: 0.5s;
+}
+.sobreMim .botao:hover{
+   border-color: var(--colorPurple) 2px;
+   background-color: #ffffff;
+   transition: 0.5s;
+   
+}
+
+.sobreMim .nome{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    font-weight: bold;  
+    color: var(--colorGrey);
+    font-size: 5em;
+}
+
+:root{
+    --colorBlack: #040305;
+    --colorPurple: #5a00e1;
+    --colorGrey: #4b4a4c;
+}
+.container span{
+ animation-name: brilho;
+ animation-duration: 5s;
+ animation-timing-function: ease-in-out;
+ animation-iteration-count: infinite;   
+ 
+}
+.container span:nth-of-type(2){
+    animation-delay: 0.25s;
+}
+.container span:nth-of-type(3){
+    animation-delay: 0.50s;
+}
+.container span:nth-of-type(4){
+    animation-delay: 0.75s;
+}
+.container span:nth-of-type(5){
+    animation-delay: 1s;
+}
+.container span:nth-of-type(6){
+    animation-delay: 1.25s;
+}
+.container span:nth-of-type(7){
+    animation-delay: 1.50s;
+}
+.container span:nth-of-type(8){
+    animation-delay: 2s;
+}
+
+@keyframes brilho {
+    0% {
+        color: #ffffff;
+        text-shadow: 0 0 12px var(--colorPurple),
+        0 0 50px var(--colorPurple),
+        0 0 100px var(--colorPurple)
+    }
+    10%, 90% {
+        color: var(--colorGrey);
+        text-shadow: none;
+    }
+}
+.alinhar{
+    display: inline;
+}
+.imagem_projetos.borda-animada{
+    margin:auto;
+    height:200px;
+    width:250px;
+    text-align: center;
+    display: table;
+    font-size:1em;
+    background: -webkit-linear-gradient(left,var(--colorPurple) 50%, transparent 50%), 
+    -webkit-linear-gradient(left, var(--colorPurple) 50%, transparent 50%), 
+    -webkit-linear-gradient(top,var(--colorPurple) 50%, transparent 50%), 
+    -webkit-linear-gradient(top, var(--colorPurple) 50%, transparent 50%);
+    background-size: 12px 2px, 12px 2px, 2px 12px, 2px 12px;
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-position: 0 0, left bottom, 0 0, right 0;
+    border-radius: 30px;
+}
+.borda-animada:hover {
+    -webkit-animation: anima-borda 10s linear infinite;
+     animation: anima-borda 10s linear infinite;
+  }
+  @-webkit-keyframes anima-borda {
+    0% {
+      background-position: 0 0, left bottom, 0 0, right 0;
+    }
+    100% {
+      background-position: 1000px 0, -1000px bottom, 0 -1000px, right 1000px;
+    }
+  }
+  @keyframes animaborda {
+    0% {
+      background-position: 0 0, left bottom, 0 0, right 0;
+    }
+    100% {
+      background-position: 1000px 0, -1000px bottom, 0 -1000px, right 1000px;
+    }
+  }
+.base_tres.base_dois{
+  background-color: var(--colorBlack);
+}
+.base_tres .imagem{
+    padding-top: 10px;
+    border-radius: 30px;
+    width: 250px;
+    height: 190px;
+    background-size: cover;
+    cursor: pointer;
+    filter: grayscale(1);
+}
+.base_tres .imagem:hover{
+    filter: grayscale(0);
+    transition: 0.5s;
+}
+.base_tres .imagem_projetos:hover .subtitle{
+    color: var(--colorPurple);
+    transition: 0.5s;
+}
+.projetos.container .color-titulo{
+    margin-bottom: 50px;
+}
+.base_tres .lista_dois{
+    margin-top: 100px;
+}
+.base_quatro{
+    background-color:var(--colorPurple);
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+/*enviar email contato*/
+footer{
+    clear: both;
+    max-width: 1200px;
+    height: 500px;
+    padding: 30px 10%;
+    position: relative;
+}
+
+.form-container{
+    width: 65%;
+    height: 375px;
+    position: relative;
+    display: block;
+    margin-left: 32%;
+   
+
+}
+
+.form-background{
+    width: 56%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    opacity: .7;
+    border-radius: 20px;
+
+}
+
+.form-container form{
+ position: absolute;
+ top: 30px;
+ left: 30px;
+ height: 300px;
+}
+
+.form-container input, .form-container textarea{
+    width: 400px;
+    display:  block;
+    border: none;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #aaa;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.form-container textarea{
+    height: 120px;
+
+}
+
+.form-container input::placeholder, .form-container textarea::placeholder {
+    font-size: 14px;
+
+}
+
+.form-container .submit{
+    background-color: #222;
+    color: #fff;
+    border: 1px solid transparent;
+    width: 100%;
+    margin-left: 10px;
+    position:  relative;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.form-container .submit:hover{
+    background-color: #fff;
+    color: #222;
+    border: 1px solid #222;
+
+}
+
+.copyright{
+    color:#222;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.alinhar_botao{
+    display: flex;
+}
