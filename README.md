@@ -14,7 +14,7 @@ Um resumo de quem sou eu.
 * Contato pessoal.
 
 ## Técnologias utilizadas:
-### CSS, BOOTSTRAP E HTML. 
+### CSS, JAVASCRIPT, BOOTSTRAP E HTML. 
 
 * Obs: 
 * Os projetos anexados no portifólio contém outras técnológias como javascript, bootstrap e vue.js. 
