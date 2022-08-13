@@ -448,3 +448,86 @@ footer{
 .alinhar_botao{
     display: flex;
 }
+
+@media screen and (min-width: 767px){
+    .cell.sumir{
+        display: none;
+    }
+    .digita.cell {
+        display: none;
+    }
+    .form-container form{
+        width: 90% !important;
+    }
+    .alinhar_botao{
+        width: 52%;
+    }
+    
+}
+@media screen and (min-width: 768px ) and (max-width: 1140px ){
+    .alinhar_botao{
+        width:100%;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .web.sumir{
+        display: none;
+    }
+    .sobreMim .nome{
+        font-size: 41px;
+    }
+    .sobreMim .texto-sobremim{
+        margin-bottom: 30px;
+    }
+    .foto{
+        width: 300px;
+        margin-top: 0px;
+    }
+    .digita.cell {
+        width: 28ch;
+        font-size: 18px;
+        margin: 10px 15px;
+    }
+    .digita.web{
+        display: none;
+    }
+    .base .paragrafo{
+        color: #fff;
+    }
+    .sobreMim{
+        padding-bottom: 50px;
+    }
+    .sobreMim .botao{
+        width: 93%;
+    }
+    .imagem_projetos.borda-animada{
+        margin-bottom: 50px;
+    }
+    .base_tres .lista_dois {
+        margin-top: 0px;
+    }
+    .base_tres, .base_dois{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .projetos.container .color-titulo{
+        margin-bottom: 30px;
+    }
+    
+    .form-container, .form-background{
+        margin-left: 0px;
+        width: 100% ;
+    }
+    .form-container form{
+        width: 80%;
+    }
+    .form-container input, .form-container textarea {
+        width: 100%;
+    }
+    .navbar .nav-topicos {
+        margin-right: 20px;
+
+    }
+}
