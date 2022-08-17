@@ -406,7 +406,7 @@ i:nth-child(40){
     
 }
 .color-navbar{
-    background-color: black !important;
+    background-color:  rgb(0, 0, 0, 0)  !important;
 }
 .base{
     background-color: black;
